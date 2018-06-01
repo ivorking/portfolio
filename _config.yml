@@ -1,17 +1,17 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Ivor Portfolio Site
+description: Ivor's portfolio site
 #baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 url: "https://ivorking.github.io/portfolio" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: ivorking
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
-user_title: Software Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
+username: Ivor King
+user_description: Portfolio of javascript, ruby, react and HTML/CSS projects.
+user_title: Junior Full Stack Developer
+email: ivorking@gmail.com
+twitter_username: ivorjk
 github_username:  ivorking
-gplus_username:  lorem_ipsum
+gplus_username:  ivorking@gmail.com
 
 # Google-analytics
 google-analytics:
