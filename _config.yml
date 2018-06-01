@@ -2,8 +2,8 @@
 
 # Website settings
 title: Ivor's Portfolio
-description: Ivor's dev portfolio site
-keywords: Ivor,ivorking,github,gh-pages
+description: Portfolio site showing current dev projects
+keywords: Ivor,ivorking,blog,Jekyll,github,gh-pages
 #baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://ivorking.github.io/portfolio  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
@@ -11,9 +11,9 @@ img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/asset
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: Ivor King  # Be used at blog posts' author.
-  first_name: Ivor  # Be used at index page about me section.
-  last_name: King  # Be used at index page about me section.
+  name: GitHub  # Be used at blog posts' author.
+  first_name: Hub  # Be used at index page about me section.
+  last_name: Git  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: ivorking  # Leave blank if you don't have now
   linkedin_id: jarrekk # Leave blank if you don't have now
