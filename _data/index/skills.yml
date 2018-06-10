@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: HTML, CSS, Javascript, ReactJS, Ruby, Rails, PostgreSQL, GitHub, Linux
+percentage: 70, 50, 80, 30, 60, 50, 40, 40
