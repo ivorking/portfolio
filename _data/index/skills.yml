@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: HTML, CSS, Javascript, ReactJS, Ruby, Rails, PostgreSQL, GitHub, Linux
-percentage: 70, 50, 80, 30, 60, 50, 40, 40
+aspects: HTML, CSS, JavaScript, jQuery, React, Ruby, Rails, PostgreSQL, GitHub, Linux
+percentage: 70, 50, 80, 60, 30, 60, 50, 40, 30, 30
