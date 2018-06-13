@@ -44,18 +44,18 @@
 </div>
 <div class="user">
   <div class="tech">
-    <h2>Javascript</h2>
+    <h2>JavaScript</h2>
     <i class="devicon-javascript-plain colored"></i>
     <i class="devicon-react-original-wordmark colored"></i>
     <i class="devicon-jquery-plain-wordmark colored"></i>
-    <p>I have strong javascript coding skills, and have developed web apps using javascript, jquery, react and underscore.</p>
+    <p>I have strong JavaScript coding skills, and have developed web apps using JavaScript, jQuery, React and Underscore.</p>
   </div>
   <div class="tech">
     <h2>Ruby</h2>
     <i class="devicon-ruby-plain-wordmark colored"></i>
     <i class="devicon-rails-plain-wordmark colored"></i>
     <i class="devicon-postgresql-plain-wordmark colored"></i>
-    <p>My ruby skills include the use of ruby on rails, and developing and implementing CRUD systems using ruby with a PostgreSQL server back-end.</p>
+    <p>My Ruby skills include the use of Ruby on Rails, and developing and implementing CRUD systems using ruby with a PostgreSQL server back-end.</p>
   </div>
   <div class="tech">
     <h2>HTML/CSS</h2>
@@ -67,13 +67,10 @@
 
       </section>
       <section id="skills">
-          <div class="container">
+        <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center" id="i18_skills">
             <div class="navy-line"></div>
-            <div class="user-details">
-                    <h1> Relative Skills </h1>
-            </div>
         </div>
     </div>
     <div class="row features-block">
@@ -88,7 +85,7 @@
         <script>
         var ctx = document.getElementById("cs");
         var data = {
-            labels: "HTML, CSS, Javascript, ReactJS, Ruby, Rails, PostgreSQL, GitHub, Linux".split(","),
+            labels: "HTML, CSS, JavaScript, jQuery, React, Ruby, Rails, PostgreSQL, GitHub, Linux".split(","),
             datasets: [{
                 label: "Ability",
                 backgroundColor: "rgba(179,181,198,0.2)",
@@ -97,7 +94,7 @@
                 pointBorderColor: "#fff",
                 pointHoverBackgroundColor: "#3385FF",
                 pointHoverBorderColor: "#3385FF",
-                data: [70, 50, 80, 30, 60, 50, 40, 40]
+                data: [7, 5, 8, 6, 3, 6, 5, 4, 3, 3]
                 }]
         };
         var myRadarChart = new Chart(ctx, {
@@ -106,7 +103,7 @@
             options: {
                 scale: {
                     responsive: true,
-                    ticks: {min: 0, max: 100},
+                    ticks: {min: 0, max: 10},
                     lineArc: false,
                     pointLabels: {fontSize: 14},
                     maintainAspectRatio: true,
@@ -118,11 +115,11 @@
     </div>
 </div>
 
-        </section>
-        
+      </section>
+      
 
 
-        <section id="projects">
+      <section id="projects">
         <div class="user-details">
   <h1> Featured Projects </h1>
 </div>
@@ -151,7 +148,7 @@
     <h3> textFIRE </h3>
     <ul>
       <li> Phaser 3</li>
-      <li> Javascript</li>     
+      <li> JavaScript</li>     
     </ul>
     <p>The challenge was to develop a game using Phaser 3, which a new JavaScript game development library, with the documentation still being completed.</p>
     <a class="project-link" target="_blank" href="https://ivorking.github.io/textfire/">Check it out</a>
@@ -205,7 +202,75 @@
 
 
       </section>
+      <section id="contactform">
+        <div class="user-details">
+    <h1> Message Me </h1>
+  </div>
 
+<form class="wj-contact" method="POST" action="https://formspree.io/ivorking@gmail.com">
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="email" placeholder="Your email">
+    <input type="subject" name"subject" placeholder="Message subject">
+    <input type="hidden" name="_subject" value="New submission!" />
+    <textarea type="text" name="message" rows="6" placeholder="Your message"></textarea>
+    <button type="submit">Submit</button>
+</form>
+
+<style>
+form.wj-contact input[type="text"], form.wj-contact input[type="email"], form.wj-contact input[type="subject"], form.wj-contact input[type="text"], form.wj-contact input[type="text"] {
+    display: block;
+    width: 25em;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    padding: 0.75em;
+    font-family: monospace, sans-serif;
+    font-weight: lighter;
+    border-style: solid;
+    border-color: #444;
+    outline-color: #2e83e6;
+    border-width: 1px;
+    border-radius: 3px;
+    transition: box-shadow .2s ease;
+}
+
+form.wj-contact textarea[type="text"] {
+    display: block;
+    width: 25em;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    padding: 0.75em;
+    font-family: monospace, sans-serif;
+    font-weight: lighter;
+    border-style: solid;
+    border-color: #444;
+    outline-color: #2e83e6;
+    border-width: 1px;
+    border-radius: 3px;
+    transition: box-shadow .2s ease;
+}
+
+form.wj-contact button[type="submit"] {
+    display: block;
+    vertical-align: middle;
+    margin: auto;
+    outline: none;
+    color: white;
+    background-color: #2e83e6;
+    border-radius: 3px;
+    padding: 0.5em;
+    margin-top: 0.25em;
+    border: 1px solid transparent;
+    height: auto;
+    display: block;
+}
+
+</style>
+      </section>
       <footer class="footer">
     <p>&copy; Ivor King</p>
     <p>Built with Jekyll and GitHub</p>
