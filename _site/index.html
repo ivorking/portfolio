@@ -3,6 +3,7 @@
   <head>
   <meta charset="utf-8">
   <script type="text/javascript" src="/portfolio/assets/js/Chart.js"></script>
+  <script type="text/javascript" src="./assets/js/Chart.js"></script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -40,7 +41,7 @@
       <section id="about">
          <div class="user-details">
   <h1> My Expertise </h1>
-  <p> Portfolio of javascript, ruby, react and HTML/CSS projects. </p>
+  <p> Portfolio of JavaScript, Ruby, React and HTML/CSS projects. </p>
 </div>
 <div class="user">
   <div class="tech">
@@ -74,15 +75,14 @@
         </div>
     </div>
     <div class="row features-block">
+        <br />
+        <div class="chartwrapper" style="width: 78%; height: 78%; margin: auto">
         <div class="wow zoomIn col-lg-6 col-lg-offset-3">
-                <div style="height: 400px width: 400px">
-            <!-- <canvas id="cs" height="500" width="500"></canvas> -->
             <canvas id="cs"></canvas>
+        </div>
+    </div>
 
-        </div>
-        </div>
-        <div class="col-lg-1"></div>
-        <script>
+<script>
         var ctx = document.getElementById("cs");
         var data = {
             labels: "HTML, CSS, JavaScript, jQuery, React, Ruby, Rails, PostgreSQL, GitHub, Linux".split(","),
@@ -106,7 +106,7 @@
                     ticks: {min: 0, max: 10},
                     lineArc: false,
                     pointLabels: {fontSize: 14},
-                    maintainAspectRatio: true,
+                    maintainAspectRatio: false,
                 },
                 legend: {display: false},
             }
@@ -205,15 +205,15 @@
       <section id="contactform">
         <div class="user-details">
     <h1> Message Me </h1>
-  </div>
+</div>
 
 <form class="wj-contact" method="POST" action="https://formspree.io/ivorking@gmail.com">
-    <input type="text" name="_gotcha" style="display:none" />
+    <!-- <input type="text" name="_gotcha" style="display:none" /> -->
     <input type="text" name="name" placeholder="Your name">
     <input type="email" name="email" placeholder="Your email">
     <input type="subject" name"subject" placeholder="Message subject">
     <input type="hidden" name="_subject" value="New submission!" />
-    <textarea type="text" name="message" rows="6" placeholder="Your message"></textarea>
+    <textarea type="text" name="message" rows="7" placeholder="Your message"></textarea>
     <button type="submit">Submit</button>
 </form>
 
@@ -226,7 +226,7 @@ form.wj-contact input[type="text"], form.wj-contact input[type="email"], form.wj
     margin-top: 0.25em;
     margin-bottom: 0.5em;
     padding: 0.75em;
-    font-family: monospace, sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: lighter;
     border-style: solid;
     border-color: #444;
@@ -244,7 +244,7 @@ form.wj-contact textarea[type="text"] {
     margin-top: 0.25em;
     margin-bottom: 0.5em;
     padding: 0.75em;
-    font-family: monospace, sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: lighter;
     border-style: solid;
     border-color: #444;
@@ -260,6 +260,7 @@ form.wj-contact button[type="submit"] {
     margin: auto;
     outline: none;
     color: white;
+    font-family: 'Montserrat',sans-serif;
     background-color: #2e83e6;
     border-radius: 3px;
     padding: 0.5em;

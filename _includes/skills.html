@@ -5,15 +5,14 @@
         </div>
     </div>
     <div class="row features-block">
+        <br />
+        <div class="chartwrapper" style="width: 78%; height: 78%; margin: auto">
         <div class="wow zoomIn col-lg-6 col-lg-offset-3">
-                <div style="height: 300px width: 300px">
-            <!-- <canvas id="{{ site.data.index.skills.id }}" height="500" width="500"></canvas> -->
             <canvas id="{{ site.data.index.skills.id }}"></canvas>
+        </div>
+    </div>
 
-        </div>
-        </div>
-        <div class="col-lg-1"></div>
-        <script>
+<script>
         var ctx = document.getElementById("{{ site.data.index.skills.id }}");
         var data = {
             labels: "{{ site.data.index.skills.aspects }}".split(","),
@@ -37,7 +36,7 @@
                     ticks: {min: 0, max: 10},
                     lineArc: false,
                     pointLabels: {fontSize: 14},
-                    maintainAspectRatio: true,
+                    maintainAspectRatio: false,
                 },
                 legend: {display: false},
             }
