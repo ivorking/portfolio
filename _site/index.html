@@ -253,12 +253,6 @@ form.wj-contact textarea[type="text"] {
     transition: box-shadow .2s ease;
 }
 
-@media only screen and (max-width: 31em) {
-    form.wj-contact input[type="text"], form.wj-contact input[type="email"], form.wj-contact input[type="subject"], form.wj-contact input[type="text"], form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
-        width: 90%;
-    }
-}
-
 form.wj-contact button[type="submit"] {
     display: block;
     vertical-align: middle;
@@ -273,6 +267,12 @@ form.wj-contact button[type="submit"] {
     border: 1px solid transparent;
     height: auto;
     display: block;
+}
+
+@media only screen and (max-width: 31em) {
+    form.wj-contact input[type="text"], form.wj-contact input[type="email"], form.wj-contact input[type="subject"], form.wj-contact input[type="text"], form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
+        width: 90%;
+    }
 }
 
 </style>
