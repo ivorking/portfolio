@@ -41,7 +41,7 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 * Compile and minify sass
 */
 gulp.task('sass', function() {
-  gulp.src('src/styles/**/*.scss')
+  gulp.src('src/styles/*.scss')
     .pipe(plumber())
     .pipe(sass())
     .pipe(csso())
@@ -79,7 +79,7 @@ gulp.task('js', function(){
 });
 
 gulp.task('watch', function() {
-  gulp.watch('src/styles/**/*.scss', ['sass', 'jekyll-rebuild']);
+  gulp.watch('src/styles/*.scss', ['sass', 'jekyll-rebuild']);
   gulp.watch('src/js/**/*.js', ['js']);
   gulp.watch('src/fonts/**/*.{tff,woff,woff2}', ['fonts']);
   gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);

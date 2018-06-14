@@ -17,4 +17,9 @@ gplus_username:  ivorking@gmail.com
 google-analytics:
   id: ""
 
+# scss
+sass:
+  sass_dir: src/styles
+  style: compressed
+
 exclude: ['package.json', 'src' , 'node_modules']
