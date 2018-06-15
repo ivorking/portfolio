@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var csso = require('gulp-csso');
 var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
@@ -41,10 +40,9 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 * Compile and minify sass
 */
 gulp.task('sass', function() {
-  gulp.src('src/styles/*.scss')
+  gulp.src('_sass/*.scss')
     .pipe(plumber())
     .pipe(sass())
-    .pipe(csso())
     .pipe(gulp.dest('assets/css/'));
 });
 
