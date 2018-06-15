@@ -51,7 +51,7 @@ table {
   border-spacing: 0;
 }
 
-form.wj-contact input[type="text"], form.wj-contact input[type="email"], form.wj-contact input[type="subject"], form.wj-contact input[type="text"], form.wj-contact input[type="text"] {
+form.wj-contact input[type="text"], form.wj-contact input[type="email"], form.wj-contact input[type="subject"] {
   display: block;
   width: 30em;
   vertical-align: middle;
