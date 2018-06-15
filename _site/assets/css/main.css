@@ -18,6 +18,7 @@ time, mark, audio, video {
   font-family: inherit;
   font-size: 100%;
   vertical-align: baseline;
+  background-color: transparent;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -28,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  background-color: transparent;
 }
 
 ol, ul {
@@ -100,9 +102,9 @@ form.wj-contact button[type="submit"] {
   height: auto;
 }
 
-@media only screen and (max-width: 31em) {
+@media only screen and (max-width: 550px) {
   form.wj-contact input[type="email"], form.wj-contact input[type="subject"], form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
-    width: 22em;
+    width: 85%;
   }
 }
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
