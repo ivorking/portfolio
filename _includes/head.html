@@ -6,12 +6,14 @@
 
   <script src="{{ "/assets/js/particles.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/assets/js/Chart.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 
-<!-- 
-  <script type="text/javascript" src="/portfolio/assets/js/Chart.js"></script>
-  <script type="text/javascript" src="./assets/js/Chart.js"></script> -->
+  <script>
+  setTimeout(function () {
+    document.body.innerHTML += '<br>';
+  }, 50);
+</script>
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
