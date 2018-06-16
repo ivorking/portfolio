@@ -496,7 +496,6 @@ var pJS = function(tag_id, params){
     
   };
 
-
   pJS.fn.particlesCreate = function(){
     for(var i = 0; i < pJS.particles.number.value; i++) {
       pJS.particles.array.push(new pJS.fn.particle(pJS.particles.color, pJS.particles.opacity.value));
@@ -1537,9 +1536,5 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
     }
   };
   xhr.send();
-
-  setTimeout(function () {
-    document.body.innerHTML += '<br>';
-  }, 200);
 
 };
