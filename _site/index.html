@@ -1,12 +1,4 @@
 <!DOCTYPE html>
-
-
-<script>
-    setTimeout(function () {
-        document.body.innerHTML += '<br>';
-      }, 50);
-    </script>
-
 <html lang="en">
   <head>
 
@@ -25,9 +17,7 @@
 </head>
 
   <body>
-      
-
-<div id="particles-js">
+      <div id="particles-js">
   <div class="header">
       <h1>
         <span class="site-title">Ivor King</span>
@@ -49,8 +39,9 @@
 
 
 
+
       <section id="about">
-         <div class="user-details">
+        <div class="user-details">
   <h1> My Expertise </h1>
   <p> Portfolio of JavaScript, Ruby, React and HTML/CSS projects. </p>
 </div>
@@ -88,40 +79,40 @@
     <div class="row features-block">
         <br />
         <div class="chartwrapper" style="width: 85%; height: 85%; margin: auto">
-        <div class="wow zoomIn col-lg-6 col-lg-offset-3">
-            <canvas id="cs"></canvas>
+            <div class="wow zoomIn col-lg-6 col-lg-offset-3">
+                <canvas id="cs"></canvas>
+            </div>
         </div>
-    </div>
 
-<script>
-        var ctx = document.getElementById("cs");
-        var data = {
-            labels: "HTML, CSS, JavaScript, jQuery, React, Ruby, Rails, PostgreSQL, GitHub, Linux".split(","),
-            datasets: [{
-                label: "Ability",
-                backgroundColor: "rgba(179,181,198,0.2)",
-                borderColor: "#3385FF",
-                pointBackgroundColor: "#3385FF",
-                pointBorderColor: "#fff",
-                pointHoverBackgroundColor: "#3385FF",
-                pointHoverBorderColor: "#3385FF",
-                data: [7, 5, 8, 6, 3, 6, 5, 4, 3, 3]
-                }]
-        };
-        var myRadarChart = new Chart(ctx, {
-            type: 'radar',
-            data: data,
-            options: {
-                scale: {
-                    responsive: true,
-                    ticks: {min: 0, max: 10},
-                    lineArc: false,
-                    pointLabels: {fontSize: 14},
-                    maintainAspectRatio: true,
-                },
-                legend: {display: false},
-            }
-        });
+        <script>
+            var ctx = document.getElementById("cs");
+            var data = {
+                labels: "HTML, CSS, JavaScript, jQuery, React, Ruby, Rails, PostgreSQL, GitHub, Linux".split(","),
+                datasets: [{
+                    label: "Ability",
+                    backgroundColor: "rgba(179,181,198,0.2)",
+                    borderColor: "#3385FF",
+                    pointBackgroundColor: "#3385FF",
+                    pointBorderColor: "#fff",
+                    pointHoverBackgroundColor: "#3385FF",
+                    pointHoverBorderColor: "#3385FF",
+                    data: [7, 5, 8, 6, 3, 6, 5, 4, 3, 3]
+                    }]
+            };
+            var myRadarChart = new Chart(ctx, {
+                type: 'radar',
+                data: data,
+                options: {
+                    scale: {
+                        responsive: true,
+                        ticks: {min: 0, max: 10},
+                        lineArc: false,
+                        pointLabels: {fontSize: 14},
+                        maintainAspectRatio: true,
+                    },
+                    legend: {display: false},
+                }
+            });
         </script>
     </div>
 </div>

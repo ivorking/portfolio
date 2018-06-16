@@ -53,7 +53,7 @@ table {
 
 form.wj-contact input[type="text"], form.wj-contact input[type="email"], form.wj-contact input[type="subject"] {
   display: block;
-  width: 30em;
+  width: 21em;
   vertical-align: middle;
   margin: auto;
   margin-top: 0.25em;
@@ -71,7 +71,7 @@ form.wj-contact input[type="text"], form.wj-contact input[type="email"], form.wj
 
 form.wj-contact textarea[type="text"] {
   display: block;
-  width: 30em;
+  width: 21em;
   vertical-align: middle;
   margin: auto;
   margin-top: 0.25em;
@@ -100,15 +100,6 @@ form.wj-contact button[type="submit"] {
   margin-top: 0.25em;
   border: 1px solid transparent;
   height: auto;
-}
-
-@media only screen and (max-width: 31em) {
-  form.wj-contact input[type="email"], form.wj-contact input[type="subject"], form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
-    width: 85%;
-  }
-}
-footer {
-  display: none;
 }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
