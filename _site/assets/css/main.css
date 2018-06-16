@@ -107,6 +107,10 @@ form.wj-contact button[type="submit"] {
     width: 85%;
   }
 }
+footer {
+  display: none;
+}
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
