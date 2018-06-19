@@ -1,5 +1,4 @@
 #particles-js {
-  z-index: 1;
   background: $main;
   display: flex;
   vertical-align: bottom;
@@ -15,7 +14,7 @@
 }
 
 .header {
-  z-index: 2;
+  z-index: 1;
   text-align: center;
   // color:#FFF;
   background-color: transparent;
@@ -29,8 +28,7 @@
     font-size: 45px;
     display: block;
     line-height: 1;
-    // color: #FFF;
-    color: blue;
+    color: #FFF;
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 90px;
@@ -40,8 +38,7 @@
     font-size: 20px;
     display: block;
     line-height: 1;
-    // color: #FFF;
-    color: blue;
+    color: #FFF;
     margin-top: 10px;
     @media only screen and (min-width:$cut){
       font-size: 40px;
@@ -79,13 +76,11 @@
     transition: all .7s;
     &:hover {
       color: $main;
-      // background: #FFF;
-      background: blue;
+      background: #FFF;
     }
     &:active {
       color: $main;
-      // background: #FFF;
-      background: blue;
+      background: #FFF;
     }
     @media only screen and (min-width:$cut) {
       width: 35px;
