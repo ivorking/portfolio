@@ -4841,6 +4841,7 @@ sup, sub {
 
 canvas {
   display: block;
+  background-size: cover;
   vertical-align: bottom;
 }
 
