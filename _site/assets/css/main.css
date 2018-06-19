@@ -4416,6 +4416,7 @@ sup, sub {
   transform: translate(-50%, -50%);
 }
 .header .site-title {
+  z-index: 3;
   font-size: 45px;
   display: block;
   line-height: 1;
