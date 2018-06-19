@@ -4891,24 +4891,6 @@ sup, sub {
   }
 }
 
-.header-icons {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.header-icons .icon {
-  text-align: center;
-  color: #FFF;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
-  padding: 10px;
-  margin: 5px;
-  border-radius: 50%;
-  border: 2px solid #FFF;
-  transition: all .7s;
-}
-
 .down {
   color: #FFF;
   position: absolute;
