@@ -4825,7 +4825,6 @@ sup, sub {
 }
 #particles-js {
   background: #1a222c;
-  margin: 0;
   display: flex;
   vertical-align: bottom;
   width: 100%;
