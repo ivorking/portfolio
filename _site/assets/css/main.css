@@ -4908,21 +4908,6 @@ sup, sub {
   border: 2px solid #FFF;
   transition: all .7s;
 }
-.header-icons .icon:hover {
-  color: #1a222c;
-  background: #FFF;
-}
-.header-icons .icon:active {
-  color: #1a222c;
-  background: #FFF;
-}
-@media only screen and (min-width: 550px) {
-  .header-icons .icon {
-    width: 35px;
-    height: 35px;
-    font-size: 35px;
-  }
-}
 
 .down {
   color: #FFF;

@@ -76,19 +76,19 @@
     border-radius: 50%;
     border: 2px solid #FFF;
     transition: all .7s;
-    &:hover {
-      color: $main;
-      background: #FFF;
-    }
-    &:active {
-      color: $main;
-      background: #FFF;
-    }
-    @media only screen and (min-width:$cut) {
-      width: 35px;
-      height: 35px;
-      font-size: 35px;
-    }
+    // &:hover {
+    //   color: $main;
+    //   background: #FFF;
+    // }
+    // &:active {
+    //   color: $main;
+    //   background: #FFF;
+    // }
+    // @media only screen and (min-width:$cut) {
+    //   width: 35px;
+    //   height: 35px;
+    //   font-size: 35px;
+    // }
   }
 }
 
