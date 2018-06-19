@@ -4848,7 +4848,7 @@ canvas {
 .header {
   z-index: 3;
   text-align: center;
-  background-color: transparent;
+  background-color: transparent !important;
   position: absolute;
   top: 50%;
   left: 50%;
