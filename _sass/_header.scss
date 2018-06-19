@@ -1,4 +1,5 @@
 #particles-js {
+  z-index: 1;
   background: $main;
   display: flex;
   vertical-align: bottom;
@@ -14,7 +15,7 @@
 }
 
 .header {
-  z-index: 1;
+  z-index: 2;
   text-align: center;
   // color:#FFF;
   background-color: transparent;
