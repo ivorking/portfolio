@@ -7,12 +7,20 @@
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+
+  background-position: 50% 50%;
+  background-image: url("");
+
   .particles-js-canvas-el {
     width:100% !important;
     height:100vh !important;
   }
 }
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+} 
 
 .header {
   z-index: 1;
@@ -62,33 +70,33 @@
 }
 
 .header-icons {
-  // display: flex;
-  // justify-content: center;
-  // text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   .icon {
-    // text-align: center;
-    // color: #FFF;
-    // width: 20px;
-    // height: 20px;
-    // font-size: 20px;
-    // padding: 10px;
-    // margin: 5px;
-    // border-radius: 50%;
-    // border: 2px solid #FFF;
-    // transition: all .7s;
-    // &:hover {
-    //   color: $main;
-    //   background: #FFF;
-    // }
-    // &:active {
-    //   color: $main;
-    //   background: #FFF;
-    // }
-    // @media only screen and (min-width:$cut) {
-    //   width: 35px;
-    //   height: 35px;
-    //   font-size: 35px;
-    // }
+    text-align: center;
+    color: #FFF;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    transition: all .7s;
+    &:hover {
+      color: $main;
+      background: #FFF;
+    }
+    &:active {
+      color: $main;
+      background: #FFF;
+    }
+    @media only screen and (min-width:$cut) {
+      width: 35px;
+      height: 35px;
+      font-size: 35px;
+    }
   }
 }
 

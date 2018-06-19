@@ -4832,11 +4832,17 @@ sup, sub {
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-image: url("");
 }
 #particles-js .particles-js-canvas-el {
   width: 100% !important;
   height: 100vh !important;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
 }
 
 .header {
@@ -4888,6 +4894,39 @@ sup, sub {
 @media only screen and (min-width: 550px) {
   .header-links .link {
     font-size: 20px;
+  }
+}
+
+.header-icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.header-icons .icon {
+  text-align: center;
+  color: #FFF;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+  transition: all .7s;
+}
+.header-icons .icon:hover {
+  color: #1a222c;
+  background: #FFF;
+}
+.header-icons .icon:active {
+  color: #1a222c;
+  background: #FFF;
+}
+@media only screen and (min-width: 550px) {
+  .header-icons .icon {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
   }
 }
 
