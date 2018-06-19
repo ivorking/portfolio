@@ -4830,6 +4830,7 @@ sup, sub {
   vertical-align: bottom;
   width: 100%;
   z-index: -10;
+  min-height: 1vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
