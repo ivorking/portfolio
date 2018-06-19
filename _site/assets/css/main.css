@@ -4825,6 +4825,7 @@ sup, sub {
 }
 #particles-js {
   background: #1a222c;
+  margin: 0;
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -4844,7 +4845,7 @@ canvas {
 }
 
 .header {
-  z-index: 1;
+  z-index: 3;
   text-align: center;
   background-color: transparent;
   position: absolute;
