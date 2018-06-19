@@ -4853,7 +4853,7 @@ sup, sub {
   font-size: 45px;
   display: block;
   line-height: 1;
-  color: #FFF;
+  color: blue;
 }
 @media only screen and (min-width: 550px) {
   .header .site-title {
@@ -4865,7 +4865,7 @@ sup, sub {
   font-size: 20px;
   display: block;
   line-height: 1;
-  color: #FFF;
+  color: blue;
   margin-top: 10px;
 }
 @media only screen and (min-width: 550px) {
@@ -4908,11 +4908,11 @@ sup, sub {
 }
 .header-icons .icon:hover {
   color: #1a222c;
-  background: #FFF;
+  background: blue;
 }
 .header-icons .icon:active {
   color: #1a222c;
-  background: #FFF;
+  background: blue;
 }
 @media only screen and (min-width: 550px) {
   .header-icons .icon {
