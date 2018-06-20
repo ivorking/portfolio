@@ -4828,7 +4828,7 @@ sup, sub {
   display: flex;
   vertical-align: bottom;
   width: 100%;
-  min-height: 99vh;
+  min-height: 99.99vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
