@@ -4823,12 +4823,16 @@ sup, sub {
     top: 0;
   }
 }
+* {
+  background-color: #000000;
+}
+
 #particles-js {
   background: #1a222c;
   display: flex;
   vertical-align: bottom;
   width: 100%;
-  min-height: 99.99vh;
+  min-height: 99.999vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
