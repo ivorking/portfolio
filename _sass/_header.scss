@@ -1,13 +1,14 @@
-* {
-  background-color: #000000;
-}
+// * {
+//   background-color: #000000;
+//   color: #000000;
+// }
 
 #particles-js {
   background: $main;
   display: flex; 
   vertical-align: bottom;
   width: 100%;
-  min-height: 101vh;
+  min-height: 99vh;
   background-repeat: no-repeat;
   background-size: cover;
 
