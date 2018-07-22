@@ -1,8 +1,8 @@
 # Site settings
 title: Ivor's Portfolio Site
 description: Portfolio providing links to coding projects
-#baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "https://ivorking.github.io/portfolio" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: /portfolio # the subpath of your site, e.g. /blog
+url: https://ivorking.github.io # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Ivor King
