@@ -14,7 +14,7 @@ var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
  * runs a child process in node that runs the jekyll commands
  */
 gulp.task('jekyll-build', function (done) {
-	return cp.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
+	return cp.spawn(jekyllCommand, ['build'], { stdio: 'inherit' })
 		.on('close', done);
 });
 
@@ -28,7 +28,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 /*
  * Build the jekyll site and launch browser-sync
  */
-gulp.task('browser-sync', ['jekyll-build'], function() {
+gulp.task('browser-sync', ['jekyll-build'], function () {
 	browserSync({
 		server: {
 			baseDir: '_site'
@@ -39,26 +39,26 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 /*
 * Compile and minify sass
 */
-gulp.task('sass', function() {
-  gulp.src('_sass/*.scss')
-    .pipe(plumber())
-    .pipe(sass())
-    .pipe(gulp.dest('assets/css/'));
+gulp.task('sass', function () {
+	gulp.src('_sass/*.scss')
+		.pipe(plumber())
+		.pipe(sass())
+		.pipe(gulp.dest('assets/css/'));
 });
 
 /*
 * Compile fonts
 */
-gulp.task('fonts', function() {
+gulp.task('fonts', function () {
 	gulp.src('src/fonts/**/*.{ttf,woff,woff2}')
-	.pipe(plumber())
-	.pipe(gulp.dest('assets/fonts/'));
+		.pipe(plumber())
+		.pipe(gulp.dest('assets/fonts/'));
 })
 
 /*
  * Minify images
  */
-gulp.task('imagemin', function() {
+gulp.task('imagemin', function () {
 	return gulp.src('src/img/**/*.{jpg,png,gif}')
 		.pipe(plumber())
 		.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
@@ -68,7 +68,7 @@ gulp.task('imagemin', function() {
 /**
  * Compile and minify js
  */
-gulp.task('js', function(){
+gulp.task('js', function () {
 	return gulp.src('src/js/**/*.js')
 		.pipe(plumber())
 		.pipe(concat('main.js'))
@@ -76,12 +76,12 @@ gulp.task('js', function(){
 		.pipe(gulp.dest('assets/js/'))
 });
 
-gulp.task('watch', function() {
-  gulp.watch('src/styles/*.scss', ['sass', 'jekyll-rebuild']);
-  gulp.watch('src/js/**/*.js', ['js']);
-  gulp.watch('src/fonts/**/*.{tff,woff,woff2}', ['fonts']);
-  gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
-  gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], ['jekyll-rebuild']);
+gulp.task('watch', function () {
+	gulp.watch('src/styles/*.scss', ['sass', 'jekyll-rebuild']);
+	gulp.watch('src/js/**/*.js', ['js']);
+	gulp.watch('src/fonts/**/*.{tff,woff,woff2}', ['fonts']);
+	gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
+	gulp.watch(['*html', '_includes/*html', '_layouts/*.html'], ['jekyll-rebuild']);
 });
 
 gulp.task('default', ['js', 'sass', 'fonts', 'browser-sync', 'watch']);
