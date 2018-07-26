@@ -5017,6 +5017,17 @@ canvas {
   margin: 5px auto;
 }
 
+.aboutme-info {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.aboutme-hobbies {
+  text-align: left;
+  margin: auto;
+}
+
 #projects {
   display: flex;
   flex-direction: column;
