@@ -5087,7 +5087,7 @@ canvas {
 }
 
 .project-link {
-  display: block;
+  display: inline-block;
   width: 100px;
   margin: 10px 0px;
   padding: 5px;
