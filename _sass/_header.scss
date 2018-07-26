@@ -1,6 +1,6 @@
 #particles-js {
   background: $main;
-  display: flex; 
+  display: flex;
   vertical-align: bottom;
   width: 100%;
   min-height: 99vh;
@@ -17,7 +17,7 @@ canvas {
   display: block;
   background-size: cover;
   vertical-align: bottom;
-} 
+}
 
 .header {
   z-index: 3;
@@ -62,6 +62,10 @@ canvas {
     margin: 10px;
     @media only screen and (min-width:$cut){
       font-size: 20px;
+    }
+    &:hover {
+      color: $sec;
+      // background: #FFF;
     }
   }
 }

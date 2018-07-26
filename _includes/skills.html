@@ -1,51 +1,26 @@
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center" id="i18_skills">
-            <div class="navy-line"></div>
-        </div>
-    </div>
-
-    <div class="user-details">
-        <h1> Confidence Levels </h1>
-    </div>
-
-    <div class="row features-block">
-        <br />
-        <div class="chartwrapper" style="width: 84%; height: 84%; margin: auto">
-            <div class="wow zoomIn col-lg-6 col-lg-offset-3">
-                <canvas id="{{ site.data.index.skills.id }}"></canvas>
-            </div>
-        </div>
-
-        <script>
-            var ctx = document.getElementById("{{ site.data.index.skills.id }}");
-            var data = {
-                labels: "{{ site.data.index.skills.aspects }}".split(","),
-                datasets: [{
-                    label: "{{ site.data.index.skills.label }}",
-                    backgroundColor: "rgba(179,181,198,0.2)",
-                    borderColor: "#3385FF",
-                    pointBackgroundColor: "#3385FF",
-                    pointBorderColor: "#fff",
-                    pointHoverBackgroundColor: "#3385FF",
-                    pointHoverBorderColor: "#3385FF",
-                    data: [{{ site.data.index.skills.percentage }}]
-                    }]
-            };
-            var myRadarChart = new Chart(ctx, {
-                type: 'radar',
-                data: data,
-                options: {
-                    scale: {
-                        responsive: true,
-                        ticks: {min: 0, max: 10},
-                        lineArc: false,
-                        pointLabels: {fontSize: 14},
-                        maintainAspectRatio: true,
-                    },
-                    legend: {display: false},
-                }
-            });
-        </script>
-    </div>
+<div class="user-details">
+  <h1> Skills </h1>
+  <p> {{site.user_description}} </p>
+</div>
+<div class="user">
+  <div class="tech">
+    <h2>JavaScript</h2>
+    <i class="devicon-javascript-plain colored"></i>
+    <i class="devicon-react-original-wordmark colored"></i>
+    <i class="devicon-jquery-plain-wordmark colored"></i>
+    <p>I have JavaScript coding skills, and have developed web apps using JavaScript, jQuery, React and Underscore.</p>
+  </div>
+  <div class="tech">
+    <h2>Ruby</h2>
+    <i class="devicon-ruby-plain-wordmark colored"></i>
+    <i class="devicon-rails-plain-wordmark colored"></i>
+    <i class="devicon-postgresql-plain-wordmark colored"></i>
+    <p>My Ruby experience includes using Ruby on Rails, and developing and implementing CRUD systems using Ruby with a PostgreSQL server back-end.</p>
+  </div>
+  <div class="tech">
+    <h2>HTML/CSS</h2>
+    <i class="devicon-html5-plain-wordmark"></i>
+    <i class="devicon-css3-plain-wordmark colored"></i>
+    <p>I have a strong practical understanding of and experience with HTML5 and CSS3, including using bootstrap, SASS and font-awesome.</p>
+  </div>
 </div>
