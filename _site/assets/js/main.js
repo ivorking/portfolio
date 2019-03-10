@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
         particlesJS("particles-js", {
 
             particles: {
-                number: { value: 80, density: { enable: true, value_area: 800 } },
-                color: { value: "#3800ef" },
+                number: { value: 220, density: { enable: true, value_area: 800 } },
+                color: { value: "#1c5afe" },
                 shape: {
                     type: "polygon",
                         stroke: { width: 0, color: "#000000" },
@@ -30,9 +30,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 line_linked: {
                     enable: true,
                         distance: 150,
-                            color: "#3800ef",
+                            color: "#1c5afe",
                                 opacity: 0.4,
-                                    width: 2.244776885211732
+                                    width: 3.744776885211732
                 },
                 move: {
                     enable: true,
