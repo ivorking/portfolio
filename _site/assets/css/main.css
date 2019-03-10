@@ -5033,7 +5033,7 @@ canvas {
   }
 }
 .header-links .link:hover {
-  color: #000FFF;
+  color: yellow;
 }
 
 .header-icons {
@@ -5095,7 +5095,7 @@ canvas {
   animation: pulse 1.3s infinite;
 }
 .down .icon:hover {
-  color: #000FFF;
+  color: yellow;
 }
 .down .icon:active {
   color: #000FFF;

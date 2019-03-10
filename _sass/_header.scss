@@ -68,7 +68,8 @@ canvas {
       font-size: 20px;
     }
     &:hover {
-      color: $sec;
+      // color: $sec;
+      color: yellow;
       // background: #FFF;
     }
   }
@@ -129,7 +130,8 @@ canvas {
       -webkit-animation: pulse 1.3s infinite;
       animation: pulse 1.3s infinite;
       &:hover {
-        color: $sec;
+        // color: $sec;
+        color: yellow;
       }
       &:active {
         color: $sec;
