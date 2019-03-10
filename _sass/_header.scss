@@ -32,7 +32,7 @@ canvas {
   transform: translate(-50%, -50%);
   .site-title {
     z-index: 3;
-    font-size: 45px;
+    font-size: 55px;
     display: block;
     line-height: 1;
     color: #FFF;
@@ -44,7 +44,7 @@ canvas {
     }
   }
   .site-description {
-    font-size: 20px;
+    font-size: 40px;
     display: block;
     line-height: 1;
     color: #FFF;
@@ -52,7 +52,7 @@ canvas {
     font-family: ubuntu;
     margin-top: 10px;
     @media only screen and (min-width:$cut){
-      font-size: 40px;
+      font-size: 55px;
     }
   }
 }

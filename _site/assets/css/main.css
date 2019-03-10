@@ -4990,7 +4990,7 @@ canvas {
 }
 .header .site-title {
   z-index: 3;
-  font-size: 45px;
+  font-size: 55px;
   display: block;
   line-height: 1;
   color: #FFF;
@@ -5004,7 +5004,7 @@ canvas {
   }
 }
 .header .site-description {
-  font-size: 20px;
+  font-size: 40px;
   display: block;
   line-height: 1;
   color: #FFF;
@@ -5014,7 +5014,7 @@ canvas {
 }
 @media only screen and (min-width: 550px) {
   .header .site-description {
-    font-size: 40px;
+    font-size: 55px;
   }
 }
 

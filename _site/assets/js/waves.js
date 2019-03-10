@@ -8,6 +8,10 @@ var particles, count = 0;
 var mouseX = 0, mouseY = -500;
 var windowHalfX = window.innerWidth / 2;
 var windowHalfY = window.innerHeight / 2 + 500;
+function isMobileDevice() {
+   return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+};
+console.log(isMobileDevice());
 init();
 animate();
 function init() {
