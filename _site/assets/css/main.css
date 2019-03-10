@@ -4961,13 +4961,13 @@ sup, sub {
 #particles-js {
   background: #1a222c;
   display: flex;
-  vertical-align: bottom;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #particles-js .particles-js-canvas-el {
   width: 100% !important;
+  height: 100vh !important;
 }
 
 canvas {
