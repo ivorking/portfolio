@@ -1,7 +1,7 @@
 #particles-js {
   background: $main;
   display: flex;
-  // vertical-align: bottom;
+  vertical-align: top;
   width: 100%;
   // min-height: 99vh;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@
 canvas {
   display: block;
   background-size: cover;
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 .header {
