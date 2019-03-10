@@ -4968,7 +4968,6 @@ sup, sub {
 }
 #particles-js .particles-js-canvas-el {
   width: 100% !important;
-  height: 100vh !important;
 }
 
 canvas {
