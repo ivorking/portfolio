@@ -4961,7 +4961,7 @@ sup, sub {
 #particles-js {
   background: #1a222c;
   display: flex;
-  vertical-align: top;
+  vertical-align: bottom;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4974,7 +4974,7 @@ sup, sub {
 canvas {
   display: block;
   background-size: cover;
-  vertical-align: top;
+  vertical-align: bottom;
 }
 
 .header {
