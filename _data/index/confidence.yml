@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects:    HTML5,  CSS3, Sass3, JavaScript, ES6, jQuery, React,  Node.js,  PHP,  Python, Ruby, Rails,  Phaser3,  PostgreSQL, GitHub, Linux, AWS
-percentage: 8,      7,    5,    8,          6,   6,      6,      5,        4,    3,      7,    5,      5,        4,          6,      8,      7
+aspects:    HTML5,  CSS3, Sass3, JavaScript, ES6, jQuery, React,  Node.js,  PHP,  Python, Ruby, Rails,  Phaser3,  PostgreSQL, GitHub, Linux, WordPress, AWS
+percentage: 8,      7,    5,    8,          6,   6,      6,      5,        4,    3,      7,    5,      5,        4,          6,      8,      8,         7
