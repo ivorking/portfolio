@@ -10,7 +10,7 @@
 #skills {
   width: 90%;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1100px;
   @media only screen and (min-width: $cut) {
     width: 80%;
   }
@@ -33,6 +33,13 @@
   @media only screen and (min-width: $cut) {
     flex-wrap: nowrap;
     font-size: 75px;
+  }
+}
+
+#imgx {
+  margin-bottom: 0px;
+  @media only screen and (max-width: $cut) {
+    margin-bottom: -13px;
   }
 }
 
